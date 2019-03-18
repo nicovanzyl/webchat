@@ -1,0 +1,29 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "p2p video chat between 2 or more peers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicovanzyl/webchat.git"
+  },
+  "keywords": [
+    "webrtc",
+    "video",
+    "chat",
+    "call"
+  ],
+  "author": "Nico van Zyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicovanzyl/webchat/issues"
+  },
+  "homepage": "https://github.com/nicovanzyl/webchat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
